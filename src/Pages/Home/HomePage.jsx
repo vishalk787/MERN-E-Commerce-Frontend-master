@@ -24,7 +24,7 @@ const HomePage = () => {
                         'Authorization': authToken
                     }
                 })
-            setCart(data);
+            setCart(data); 
         }
 
     }

@@ -18,7 +18,7 @@ const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
   const handleClickShowPassword = () => {
     setShowPassword(!showPassword);
-  };
+  }; 
   const navigate = useNavigate()
 
   const handleOnChange = (e) => {
